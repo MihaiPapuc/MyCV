@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;800&family=Roboto:wght@100;500;900&display=swap');
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.main-section {
+    /* Imparte pagina in doua */
+    display: flex;
+    /* default flex este pe row, si se aseaza in dreapta...design-ul este facut pentru stanga */
+    flex-direction: row-reverse;
+    /* latimea proiectului---unde se afla content */
+    width: 1200px;
+    /* in jurul cv-ului este o margine de 40 pixeli */
+    margin: 40px auto;
+
+}
+
+#profession {
+    font-size: 14px;
+    color: #000;
+}
+
+/* left section + all components */
+.left-section {
+    background-color: #1E2939;
+    padding: 10px;
+    width: 370px;
+}
+
+#imgProfile {
+    align-content: center;
+    padding: 40px;
+}
+
+.left-section-title {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contacts {
+    color: #fff;
+    padding-left: 3rem;
+    margin-bottom: 60px;
+}
+
+.contacts-content {
+    font-weight: 600;
+}
+
+.contacts-block {
+    margin-right: 0.5rem;
+    line-height: 24px;
+    font-size: 1.1rem;
+}
+
+#phone,
+#email {
+    font-weight: 400;
+    color: #e7e6e1;
+    text-decoration: none;
+    font-size: 1.02rem;
+    opacity: 0.7;
+}
+
+.tech-skills,
+.soft-skills {
+    color: #fff;
+    padding-left: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+.tech-skills ul {
+    list-style: none;
+}
+
+.soft-skills ul {
+    list-style: none;
+}
+
+
+.tech-skills ul li::before {
+    content: "\2022";
+    color: #FB6D3A;
+    font-weight: 800;
+    display: inline-block;
+    width: 1.5rem;
+    margin-left: -2.3rem;
+}
+
+.soft-skills ul {
+    list-style: none;
+}
+
+.soft-skills ul li::before {
+    content: "\2022";
+    color: #FB6D3A;
+    font-weight: 800;
+    display: inline-block;
+    width: 1.5rem;
+    margin-left: -2.3rem;
+}
+
+/* right section + all components */
+
+.right-section {
+    margin-left: 80px;
+}
+
+.about-me-sec {
+    padding: 20px;
+}
+
+.projects {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+
+.jobs {
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.education {
+    padding: 15px;
+    margin-top: 15px;
+}
