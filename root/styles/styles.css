@@ -103,6 +103,7 @@ body {
 
 .right-section {
     margin-left: 80px;
+    margin-right: 220px;
     background-color: #fff;
 }
 
@@ -137,16 +138,94 @@ body {
 }
 
 .projects {
-    margin: 15px;
+    margin-top: 40px;
+    width: 400px;
 }
 
-
-.jobs {
-    padding: 15px;
-    margin-top: 15px;
+.right-sec-block-title {
+    font-style: none;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
 }
 
-.education {
-    padding: 15px;
-    margin-top: 15px;
+.bracket {
+    font-weight: bold;
+    margin: 2px;
+}
+
+.project-items {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #595959;
+    margin-left: 10px;
+}
+
+.project-items a:visited {
+    text-decoration: none;
+    background-color: transparent;
+    color: #595959;
+}
+
+.project-items a:link {
+    text-decoration: none;
+    background-color: transparent;
+    color: #595959;
+}
+
+.project-items a:active {
+    text-decoration: none;
+    background-color: transparent;
+    color: #595959;
+}
+
+.right-section-list {
+    font-weight: 800;
+    color: #000;
+}
+
+#olList {
+    margin-left: -1.4rem;
+}
+
+.job-name {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#studyName {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.descript-job {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #A8A8A8;
+}
+
+.person-jobs ul {
+    margin-left: -1.4rem;
+}
+
+.line-brake {
+    margin-right: 3px;
+    color: #000;
+}
+
+#descriptEducation {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #A8A8A8;
 }
