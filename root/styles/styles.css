@@ -4,6 +4,8 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
+/* Main section */
+
 .main-section {
     /* Imparte pagina in doua */
     display: flex;
@@ -16,9 +18,159 @@ body {
 
 }
 
+/* Right section + all components */
+.right-section {
+    margin-left: 80px;
+    margin-right: 220px;
+    background-color: #fff;
+}
+
+/* About me section */
+.about-me-sec {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-top: 100px;
+    width: 400px;
+}
+
+/* Profession */
+#profession {
+    font-size: 20px;
+    color: #000;
+}
+
+/* Name on the CV */
+#personName {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+/* The CV description */
+#description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Right section --> Projects */
+.projects {
+    margin-top: 40px;
+    width: 400px;
+}
+
+/* Projects block-title */
+.right-sec-block-title {
+    font-style: none;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+/* List custom */
+#olList {
+    margin-left: -1.4rem;
+}
+
+/* List Right section */
+.right-section-list {
+    font-weight: 800;
+    color: #000;
+}
+
+/* Project items - right section */
+.project-items {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #595959;
+    margin-left: 10px;
+}
+
+.project-items a:visited {
+    text-decoration: none;
+    background-color: transparent;
+    color: #595959;
+}
+
+.project-items a:link {
+    text-decoration: none;
+    background-color: transparent;
+    color: #595959;
+}
+
+.project-items a:active {
+    text-decoration: none;
+    background-color: transparent;
+    color: #595959;
+}
+
+/* Custom bracket right-section */
+.bracket {
+    font-weight: bold;
+    margin: 2px;
+}
 
 
-/* left section + all components */
+
+/* Work experience block */
+
+.person-jobs ul {
+    margin-left: -1.4rem;
+}
+
+.job-name {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.descript-job {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #A8A8A8;
+}
+
+
+.line-brake {
+    margin-right: 3px;
+    color: #000;
+}
+
+
+/* Education block */
+
+#studyName {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#descriptEducation {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #A8A8A8;
+}
+
+
+/* Left section + all components */
+
+
 .left-section {
     background-color: #1E2939;
     padding: 10px;
@@ -30,25 +182,25 @@ body {
     padding: 40px;
 }
 
-.left-section-title {
-    font-size: 20px;
-    line-height: 24px;
-}
-
 .contacts {
     color: #fff;
     padding-left: 3rem;
     margin-bottom: 60px;
 }
 
-.contacts-content {
-    font-weight: 600;
+.left-section-title {
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .contacts-block {
     margin-right: 0.5rem;
     line-height: 24px;
     font-size: 1.1rem;
+}
+
+.contacts-content {
+    font-weight: 600;
 }
 
 #phone,
@@ -97,135 +249,4 @@ body {
     display: inline-block;
     width: 1.5rem;
     margin-left: -2.3rem;
-}
-
-/* right section + all components */
-
-.right-section {
-    margin-left: 80px;
-    margin-right: 220px;
-    background-color: #fff;
-}
-
-#profession {
-    font-size: 20px;
-    color: #000;
-}
-
-.about-me-sec {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000;
-    margin-top: 100px;
-    width: 400px;
-}
-
-#personName {
-    margin-top: 30px;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 45px;
-    line-height: 55px;
-}
-
-#description {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-.projects {
-    margin-top: 40px;
-    width: 400px;
-}
-
-.right-sec-block-title {
-    font-style: none;
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 27px;
-}
-
-.bracket {
-    font-weight: bold;
-    margin: 2px;
-}
-
-.project-items {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration: underline;
-    color: #595959;
-    margin-left: 10px;
-}
-
-.project-items a:visited {
-    text-decoration: none;
-    background-color: transparent;
-    color: #595959;
-}
-
-.project-items a:link {
-    text-decoration: none;
-    background-color: transparent;
-    color: #595959;
-}
-
-.project-items a:active {
-    text-decoration: none;
-    background-color: transparent;
-    color: #595959;
-}
-
-.right-section-list {
-    font-weight: 800;
-    color: #000;
-}
-
-#olList {
-    margin-left: -1.4rem;
-}
-
-.job-name {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-#studyName {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.descript-job {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 12px;
-    color: #A8A8A8;
-}
-
-.person-jobs ul {
-    margin-left: -1.4rem;
-}
-
-.line-brake {
-    margin-right: 3px;
-    color: #000;
-}
-
-#descriptEducation {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 12px;
-    color: #A8A8A8;
 }
