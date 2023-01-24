@@ -15,7 +15,6 @@ body {
     width: 1200px;
     /* in jurul cv-ului este o margine de 40 pixeli */
     margin: 40px auto;
-
 }
 
 /* Right section + all components */
@@ -33,7 +32,7 @@ body {
     line-height: 17px;
     color: #000;
     margin-top: 100px;
-    width: 400px;
+    width: 35rem;
 }
 
 /* Profession */
@@ -62,7 +61,7 @@ body {
 /* Right section --> Projects */
 .projects {
     margin-top: 40px;
-    width: 400px;
+    width: 550px;
 }
 
 /* Projects block-title */
@@ -123,6 +122,11 @@ body {
 
 /* Work experience block */
 
+.work-experience {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .person-jobs ul {
     margin-left: -1.4rem;
 }
@@ -152,6 +156,10 @@ body {
 
 /* Education block */
 
+.education {
+    margin-top: 3rem;
+}
+
 #studyName {
     font-style: normal;
     font-weight: 800;
@@ -175,6 +183,8 @@ body {
     background-color: #1E2939;
     padding: 10px;
     width: 370px;
+    /* padding-bottom: auto; */
+    padding-bottom: 15rem;
 }
 
 #imgProfile {
@@ -185,7 +195,7 @@ body {
 .contacts {
     color: #fff;
     padding-left: 3rem;
-    margin-bottom: 60px;
+    margin-bottom: 5rem;
 }
 
 .left-section-title {
@@ -195,8 +205,8 @@ body {
 
 .contacts-block {
     margin-right: 0.5rem;
-    line-height: 24px;
     font-size: 1.1rem;
+    position: relative;
 }
 
 .contacts-content {
@@ -204,20 +214,38 @@ body {
 }
 
 #phone,
-#email {
+#email,
+#linkedin {
     font-weight: 400;
     color: #e7e6e1;
     text-decoration: none;
-    font-size: 1.02rem;
+    font-size: 1.2rem;
     opacity: 0.7;
+    position: absolute;
+    padding-bottom: 2rem;
+    padding-left: 0.rem;
+}
+
+#linkedin a:visited {
+    text-decoration: none;
+    color: #e7e6e1;
+}
+
+#linkedin a:active {
+    text-decoration: none;
+    color: #e7e6e1;
 }
 
 .tech-skills,
 .soft-skills {
     color: #fff;
     padding-left: 3rem;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
     font-weight: 400;
+}
+
+.tech-skills {
+    margin-bottom: 3rem;
 }
 
 .tech-skills ul {
