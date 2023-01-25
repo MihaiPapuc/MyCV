@@ -1,283 +1,275 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;800&family=Roboto:wght@100;500;900&display=swap');
 
 body {
-    font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Main section */
 
 .main-section {
-    /* Imparte pagina in doua */
-    display: flex;
-    /* default flex este pe row, si se aseaza in dreapta...design-ul este facut pentru stanga */
-    flex-direction: row-reverse;
-    /* latimea proiectului---unde se afla content */
-    width: 1200px;
-    /* in jurul cv-ului este o margine de 40 pixeli */
-    margin: 40px auto;
+  /* Imparte pagina in doua */
+  display: flex;
+  /* default flex este pe row, si se aseaza in dreapta...design-ul este facut pentru stanga */
+  flex-direction: row-reverse;
+  /* latimea proiectului---unde se afla content */
+  width: 1200px;
+  /* in jurul cv-ului este o margine de 40 pixeli */
+  margin: 40px auto;
 }
 
 /* Right section + all components */
 .right-section {
-    margin-left: 80px;
-    margin-right: 220px;
-    background-color: #fff;
+  margin-left: 80px;
+  margin-right: 220px;
+  background-color: #fff;
 }
 
 /* About me section */
 .about-me-sec {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000;
-    margin-top: 100px;
-    width: 35rem;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin-top: 100px;
+  width: 35rem;
 }
 
 /* Profession */
 #profession {
-    font-size: 20px;
-    color: #000;
+  font-size: 20px;
+  color: #000;
 }
 
 /* Name on the CV */
 #personName {
-    margin-top: 30px;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 45px;
-    line-height: 55px;
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 55px;
 }
 
 /* The CV description */
 #description {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 /* Right section --> Projects */
 .projects {
-    margin-top: 40px;
-    width: 550px;
+  margin-top: 40px;
+  width: 550px;
 }
 
 /* Projects block-title */
 .right-sec-block-title {
-    font-style: none;
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 27px;
+  font-style: none;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 27px;
 }
 
 /* List custom */
 #olList {
-    margin-left: -1.4rem;
+  margin-left: -1.4rem;
 }
 
 /* List Right section */
 .right-section-list {
-    font-weight: 800;
-    color: #000;
+  font-weight: 800;
+  color: #000;
 }
 
 /* Project items - right section */
 .project-items {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration: underline;
-    color: #595959;
-    margin-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #595959;
+  margin-left: 10px;
 }
 
 .project-items a:visited {
-    text-decoration: none;
-    background-color: transparent;
-    color: #595959;
+  text-decoration: none;
+  background-color: transparent;
+  color: #595959;
 }
 
 .project-items a:link {
-    text-decoration: none;
-    background-color: transparent;
-    color: #595959;
+  text-decoration: none;
+  background-color: transparent;
+  color: #595959;
 }
 
 .project-items a:active {
-    text-decoration: none;
-    background-color: transparent;
-    color: #595959;
+  text-decoration: none;
+  background-color: transparent;
+  color: #595959;
 }
 
 /* Custom bracket right-section */
 .bracket {
-    font-weight: bold;
-    margin: 2px;
+  font-weight: bold;
+  margin: 2px;
 }
-
-
 
 /* Work experience block */
 
 .work-experience {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .person-jobs ul {
-    margin-left: -1.4rem;
+  margin-left: -1.4rem;
 }
 
 .job-name {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 20px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
 }
-
 
 .descript-job {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 12px;
-    color: #A8A8A8;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #a8a8a8;
 }
-
 
 .line-brake {
-    margin-right: 3px;
-    color: #000;
+  margin-right: 3px;
+  color: #000;
 }
-
 
 /* Education block */
 
 .education {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 #studyName {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 20px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 #descriptEducation {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 12px;
-    color: #A8A8A8;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #a8a8a8;
 }
-
 
 /* Left section + all components */
 
-
 .left-section {
-    background-color: #1E2939;
-    padding: 10px;
-    width: 370px;
-    /* padding-bottom: auto; */
-    padding-bottom: 15rem;
+  background-color: #1e2939;
+  padding: 10px;
+  width: 370px;
+  /* padding-bottom: auto; */
+  padding-bottom: 15rem;
 }
 
 #imgProfile {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    padding: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 40px;
 }
 
 .contacts {
-    color: #fff;
-    padding-left: 1.3rem;
-    margin-bottom: 5rem;
+  color: #fff;
+  padding-left: 1.3rem;
+  margin-bottom: 5rem;
 }
 
 .left-section-title {
-    font-size: 20px;
-    line-height: 24px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .contacts-block {
-    margin-right: 0.5rem;
-    font-size: 1.1rem;
-    position: relative;
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
+  position: relative;
 }
 
 .contacts-content {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 #phone,
 #email,
 #linkedin {
-    font-weight: 400;
-    color: #e7e6e1;
-    text-decoration: none;
-    font-size: 1.2rem;
-    opacity: 0.7;
-    position: absolute;
-    padding-bottom: 2rem;
-    padding-left: 0.rem;
+  font-weight: 400;
+  color: #e7e6e1;
+  text-decoration: none;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  position: absolute;
+  padding-bottom: 2rem;
+  padding-left: 0rem;
 }
 
 #linkedin a:visited {
-    text-decoration: none;
-    color: #e7e6e1;
+  text-decoration: none;
+  color: #e7e6e1;
 }
 
 #linkedin a:active {
-    text-decoration: none;
-    color: #e7e6e1;
+  text-decoration: none;
+  color: #e7e6e1;
 }
 
 .tech-skills,
 .soft-skills {
-    color: #fff;
-    padding-left: 1.3rem;
-    /* margin-bottom: 3rem; */
-    font-weight: 400;
+  color: #fff;
+  padding-left: 1.3rem;
+  /* margin-bottom: 3rem; */
+  font-weight: 400;
 }
 
 .tech-skills {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .tech-skills ul {
-    list-style: none;
+  list-style: none;
 }
 
 .soft-skills ul {
-    list-style: none;
+  list-style: none;
 }
-
 
 .tech-skills ul li::before {
-    content: "\2022";
-    color: #FB6D3A;
-    font-weight: 800;
-    display: inline-block;
-    width: 1.5rem;
-    margin-left: -2.3rem;
+  content: '\2022';
+  color: #fb6d3a;
+  font-weight: 800;
+  display: inline-block;
+  width: 1.5rem;
+  margin-left: -2.3rem;
 }
 
 .soft-skills ul {
-    list-style: none;
+  list-style: none;
 }
 
 .soft-skills ul li::before {
-    content: "\2022";
-    color: #FB6D3A;
-    font-weight: 800;
-    display: inline-block;
-    width: 1.5rem;
-    margin-left: -2.3rem;
+  content: '\2022';
+  color: #fb6d3a;
+  font-weight: 800;
+  display: inline-block;
+  width: 1.5rem;
+  margin-left: -2.3rem;
 }
